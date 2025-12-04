@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>About — AI Boost Marketing</title>
+<meta name="description" content="About AI Boost Marketing — AI-driven marketing consulting for small and medium businesses." />
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --primary:#800080;
+  --bg:#f8fafc;
+  --card:#ffffff;
+  --muted:#475569;
+  font-family: 'Open Sans', system-ui;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:#0f172a;line-height:1.5}
+
+/* Header */
+header{background:var(--primary);color:white;padding:18px 24px}
+.container{max-width:1100px;margin:0 auto;padding:24px}
+.nav{display:flex;align-items:center;justify-content:space-between}
+.logo{font-family:Poppins, sans-serif;font-weight:700}
+nav a{color:white;text-decoration:none;margin-left:18px;font-weight:600}
+
+/* Hero / About Section */
+.hero{display:flex;gap:28px;align-items:center;padding:40px 0}
+.hero img{max-width:260px;width:100%;border-radius:12px;box-shadow:0 12px 26px rgba(2,6,23,0.15);height:auto;object-fit:cover}
+.bio{background:var(--card);padding:22px;border-radius:12px;box-shadow:0 10px 28px rgba(2,6,23,0.06)}
+h2{font-family:Poppins, sans-serif;margin-top:0}
+h3{font-family:Poppins, sans-serif;margin-bottom:6px}
+p{color:var(--muted)}
+
+/* CTA Button */
+.btn{
+  display:inline-block;
+  margin-top:12px;padding:10px 16px;
+  background:white;color:var(--primary);
+  border:2px solid var(--primary);
+  border-radius:8px;text-decoration:none;
+  font-weight:700;
+}
+
+/* Info Cards */
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px;margin-top:26px}
+.card{background:var(--card);padding:20px;border-radius:12px;box-shadow:0 6px 20px rgba(2,6,23,0.05)}
+
+/* Footer */
+footer{text-align:center;padding:28px 0;color:#6b7280}
+
+/* Responsive */
+@media(max-width:720px){
+  .hero{flex-direction:column;text-align:center}
+  nav a{display:none}
+}
+</style>
+</head>
+
+<body>
+<header>
+  <div class="container nav">
+    <div class="logo">AI Boost Marketing</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="mailto:hello@aiboostmarketing.com">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+<section class="hero">
+  <img src="https://tse2.mm.bing.net/th/id/OIP.E0yEvGDqXof63L66vR1r3AHaEK?pid=Api&P=0&h=180" class="avatar">
+
+  <div class="bio">
+    <h2>Hi, We are <span style="color:var(--primary)">AI Boost Marketing</span></h2>
+    <p>We are digital marketing consultants who combine practical marketing strategy with AI-powered tools to deliver measurable growth for small and medium businesses. Our approach pairs human creativity with automation for smarter ads, faster content, and clearer analytics.</p>
+
+    <h3>Why AI?</h3>
+    <p>AI eliminates repetitive tasks, surfaces the right data insights, and scales content without sacrificing quality. We implement AI to enhance your team not replace it.</p>
+
+    <h3>Tools We Use</h3>
+    <p>ChatGPT • Google Analytics • GSC • SEMrush • Jasper/Writer • Zapier • Meta Ads Manager</p>
+
+    <a href="mailto:hello@aiboostmarketing.com?subject=Consultation%20with%20AI%20Boost%20Marketing" class="btn">Work with Us</a>
+  </div>
+</section>
+
+<section>
+  <div class="grid">
+    <div class="card">
+      <h3>Background</h3>
+      <p>We’ve worked with retail, e-commerce, and local services to increase organic traffic, reduce ad spend, and set up automated marketing pipelines focused on improving CPA and driving predictable growth.</p>
+    </div>
+    <div class="card">
+      <h3>Our Approach</h3>
+      <p>Every project starts with a short audit and a prioritized roadmap. We deliver clear KPIs, a testing plan, and AI-powered systems for scaling content, ads, and analytics.</p>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <p>© 2025 AI Boost Marketing | Vancouver, BC</p>
+</footer>
+
+</body>
+</html>
